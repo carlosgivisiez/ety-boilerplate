@@ -1,0 +1,19 @@
+// IDE
+.vs/*
+.vscode/*
+
+// yarn
+node_modules/*
+yarn-error.log
+
+// build
+dist/*
+
+// env
+.env
+
+// testes
+coverage/*
+
+// log
+log/*

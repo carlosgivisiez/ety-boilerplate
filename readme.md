@@ -1,0 +1,13 @@
+Nodemon
+webpack
+jest
+joi
+morgan
+redis
+tsyringe
+winston
+overnight
+dotenv
+husky
+prettier
+tsconfig-paths
