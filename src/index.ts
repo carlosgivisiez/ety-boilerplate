@@ -17,10 +17,12 @@ class ServerApp extends Server {
     }
 
     // e.g Register your interface implementations for DI
-    private setupDependencyInjection() {}
+    private setupDependencyInjection(): void {
+        return;
+    }
 
     // Configure your services middlewares
-    private setupConfigurations() {
+    private setupConfigurations(): void {
         this.app.use(Morgan("combined"));
         this.app.use(BodyParser.json());
         this.app.use(BodyParser.urlencoded({ extended: true }));
@@ -28,7 +30,9 @@ class ServerApp extends Server {
     }
 
     // Setup your controller using overnightjs
-    private setupControllers() {}
+    private setupControllers(): void {
+        return;
+    }
 
     public start(port: number): void {
         this.app.listen(port, (): void => {
