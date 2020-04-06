@@ -13,7 +13,7 @@ This project uses yarn as package manager and node to run javascript. You need t
 
 # Sripts
 
-- Development: `$ yarn start`
+- Development: `$ yarn dev`
 - Testing: 
   - $ `yarn test` to run all test
   - $ `yarn test:cov` to see your coverage
@@ -22,7 +22,7 @@ This project uses yarn as package manager and node to run javascript. You need t
 
 # Default packages
 
-Here is listed all packages pre-installed in the project. The other packages related to typescript configuration or plugin is not listed here, but you can find those in `package.json`.
+Here is listed all pre-installed packages. The other packages related to typescript configuration or general plugins is not listed here, but you can find them in `package.json`.
 
 - [nodemon](https://yarnpkg.com/package/nodemon)
 - [webpack](https://yarnpkg.com/package/webpack)
