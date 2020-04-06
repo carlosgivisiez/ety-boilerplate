@@ -1,10 +1,10 @@
 # Introduction
 
-This is a minimal boilerplate for a Restful API. There is no restrictions on your project structure neither on the packages you choose to remove. All configurations files are on the root, and some packages setups is defined inside `package.json`.
+This is a minimal boilerplate for a Restful API. There is no restrictions on your project structure neither on the packages you choose to remove. All configurations files are on the root, and some packages setups are defined inside `package.json`.
 
 With this project you have scripts, building, testing, validation, dependency injection, logger, decorator, dotenv, linting and pre-commit hook. Everything configurated so you can start coding.
 
-# Pre-requisites
+# Prerequisites
 
 This project uses yarn as package manager and node to run javascript. You need to install those on your machine in order to run the project.
 
@@ -22,7 +22,7 @@ This project uses yarn as package manager and node to run javascript. You need t
 
 # Default packages
 
-Here is listed all pre-installed packages. The other packages related to typescript configuration or general plugins is not listed here, but you can find them in `package.json`.
+Here are listed all pre-installed packages. The other packages related to typescript configuration or general plugins is not listed here, but you can find them in `package.json`.
 
 - [nodemon](https://yarnpkg.com/package/nodemon)
 - [webpack](https://yarnpkg.com/package/webpack)
