@@ -8,8 +8,8 @@
     "license": "MIT",
     "scripts": {
         "dev": "nodemon src/index.js",
-        "build": "eslint src/**/* --fix && webpack --config webpack.config.js",
-        "lint": "eslint src/**/* --fix",
+        "build": "eslint \"src/**/*\" --fix && webpack --config webpack.config.js",
+        "lint": "eslint \"src/**/*\" --fix",
         "test": "jest",
         "test:cov": "jest --coverage"
     },
